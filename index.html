@@ -17,32 +17,37 @@
       </div>
       <div class="flex-item-right">
         <div class="form-container">
-          <form action="get">
+          <form>
             <h1 id="form-header">Let's get started!</h1>
 
             <div class="input-container">
               <label for="first_name">First Name:</label>
-              <input type="text" id="first_name" placeholder="Ville" />
+              <input type="text" id="first_name" required />
 
               <label for="last_name">Last Name:</label>
-              <input type="text" id="last_name" placeholder="mäkipeltonen" />
+              <input type="text" id="last_name" required />
             </div>
 
             <div class="input-container">
               <label for="user_email">Email Address:</label>
-              <input
-                type="email"
-                id="user_email"
-                name="email"
-                placeholder="you@example.com"
-              />
+              <input type="email" id="user_email" name="email" />
               <label for="phone_number">Phone Number:</label>
-              <input type="tel" id="phone_number" name="phone_number" />
+              <input
+                type="tel"
+                id="phone_number"
+                name="phone_number"
+                required
+              />
             </div>
 
             <div class="input-container">
               <label for="password">Password:</label>
-              <input type="password" id="user_password" name="password" />
+              <input
+                type="password"
+                id="user_password"
+                name="password"
+                required
+              />
 
               <label for="password">Confirm Password:</label>
               <input type="password" id="user_password" name="password" />
