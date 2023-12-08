@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item-left">
+        <img
+          src="https://cdn.pixabay.com/photo/2019/08/30/15/48/lock-4441691_1280.png"
+          alt=""
+        />
+      </div>
+      <div class="flex-item-right">
+        <div class="form-container">
+          <form action="get">
+            <h1 id="form-header">Let's get started!</h1>
+
+            <div class="input-container">
+              <label for="first_name">First Name:</label>
+              <input type="text" id="first_name" placeholder="Ville" />
+
+              <label for="last_name">Last Name:</label>
+              <input type="text" id="last_name" placeholder="mäkipeltonen" />
+            </div>
+
+            <div class="input-container">
+              <label for="user_email">Email Address:</label>
+              <input
+                type="email"
+                id="user_email"
+                name="email"
+                placeholder="you@example.com"
+              />
+              <label for="phone_number">Phone Number:</label>
+              <input type="tel" id="phone_number" name="phone_number" />
+            </div>
+
+            <div class="input-container">
+              <label for="password">Password:</label>
+              <input type="password" id="user_password" name="password" />
+
+              <label for="password">Confirm Password:</label>
+              <input type="password" id="user_password" name="password" />
+            </div>
+
+            <div class="input-container">
+              <button type="submit">Sign-up</button>
+            </div>
+            <p>Already have a an account? <a href="">Log In</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

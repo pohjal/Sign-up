@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.flex-container {
+  background-color: #a99c9c;
+  display: flex;
+  height: 100vh;
+}
+
+.flex-item-left {
+  display: flex;
+  overflow: hidden;
+  flex: 1.5;
+  justify-content: center;
+  align-items: center;
+  background-color: #decdf5;
+}
+
+.flex-item-right {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f1ff;
+}
+.form-container {
+  padding: 10px;
+}
+
+.input-container {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.input-container label {
+  margin: 10px;
+  flex: 1; /* Take up 50% of the width */
+}
+.input-container input {
+  padding: 10px;
+  margin: 10px;
+  flex: 1; /* Take up 50% of the width */
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+}
+@media screen and (max-width: 1170px) and (max-height: 1000px) {
+  body {
+    font-size: 14px; /* Example style for smaller screens */
+  }
+
+  /* Add more styles as needed for smaller screens */
+}
